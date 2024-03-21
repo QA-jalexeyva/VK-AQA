@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.dvdev.junit.service.UserServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-21T13:28:51" hostname="DESKTOP-LBIBSCR" time="0.049">
+  <properties/>
+  <testcase name="test()" classname="com.dvdev.junit.service.UserServiceTest" time="0.049"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
