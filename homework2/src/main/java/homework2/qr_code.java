@@ -12,9 +12,9 @@ public class qr_code {
 
     @Test
     public void qr() {
-        open("https://ok.ru/");     // открыть сайт
+        open("https://ok.ru/");                     // открыть сайт
         $(By.className("qr-button-label"))          // кнопка для перехода к qr-коду
                 .click();                           // нажать
-        sleep(2_000);                     // да-да, 2 секунды, даааааа, да
+        sleep(2_000);                               // да-да, 2 секунды, даааааа, да
     }
 }
