@@ -11,10 +11,10 @@ public class search {
 
     @Test
     public void search () {
-        open("https://ok.ru/");     // открыть сайт
+        open("https://ok.ru/");                     // открыть сайт
         $(By.name("st.query"))                      // найти поле поиска
                 .setValue("Мистер Дудец")           // ввести значение
                 .pressEnter();                      // нажать кнопку Enter
-        sleep(4_000);                    // эххх, хорошая мелодия.....
-    }                                              // я заплакал
+        sleep(4_000);                               // эххх, хорошая мелодия.....
+    }                                               // я заплакал
 }
