@@ -9,7 +9,7 @@ public class NegativeRegistration {
 
     @Test
     public void abdv() {
-        open("https://ok.ru/");      // открыть сайт
+        open("https://ok.ru/");                      // открыть сайт
         $(By.linkText("Зарегистрироваться"))         // найти текст == "Зарегистрироваться"
                 .click();                            // нажать на найденный текст
         $(By.name("st.r.phone"))                     // в поле ввода номера телефона
