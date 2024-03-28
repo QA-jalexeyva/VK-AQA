@@ -9,7 +9,7 @@ public class PositiveAuthorization {
 
     @Test
     public void Authorization() {
-        open("https://ok.ru/");       // open site
+        open("https://ok.ru/");                       // open site
         $(byName("st.email"))                         // in login field
                 .setValue("technopol34");             // valid login
         $(byName("st.password"))                      // in password field
