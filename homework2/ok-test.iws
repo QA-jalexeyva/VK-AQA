@@ -6,7 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="ddec4d30-1b75-499b-bdf7-8337dc112ddf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../first_hw/src/first_hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/../first_hw/src/first_hw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heisenbug/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heisenbug/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heisenbug/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heisenbug/gradlew.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../junit5-gradle-starter/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../junit5-gradle-starter/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled2/gradlew.bat" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,13 +263,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/git/VK-AQA/second_hw&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/git/VK-AQA/homework2"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
