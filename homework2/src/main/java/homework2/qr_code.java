@@ -1,6 +1,7 @@
 package homework2;
 
 import org.junit.Test;
+import org.junit.jupiter.api.AfterAll;
 import org.openqa.selenium.By;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -16,5 +17,10 @@ public class qr_code {
         $(By.className("qr-button-label"))          // кнопка для перехода к qr-коду
                 .click();                           // нажать
         sleep(2_000);                     // да-да, 2 секунды, даааааа, да
+    }
+    @AfterAll
+    public void after () {
+        clearBrowserLocalStorage();
+        clearBrowserCookies();
     }
 }

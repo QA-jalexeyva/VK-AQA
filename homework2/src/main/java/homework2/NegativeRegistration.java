@@ -1,9 +1,10 @@
 package homework2;
 
 import org.junit.Test;
+import org.junit.jupiter.api.AfterAll;
 import org.openqa.selenium.By;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+
+import static com.codeborne.selenide.Selenide.*;
 
 public class NegativeRegistration {
 
@@ -13,7 +14,12 @@ public class NegativeRegistration {
         $(By.linkText("Зарегистрироваться"))         // найти текст == "Зарегистрироваться"
                 .click();                            // нажать на найденный текст
         $(By.name("st.r.phone"))                     // в поле ввода номера телефона
-                .setValue("+700000000000")           // вести невалидный номер
+                .setValue("+700000000000")           // ввести невалидный номер
                 .pressEnter();                       // нажать кнопку Enter
+    }
+    @AfterAll
+    public void after () {
+        clearBrowserLocalStorage();
+        clearBrowserCookies();
     }
 }

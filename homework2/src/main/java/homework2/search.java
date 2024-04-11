@@ -1,6 +1,7 @@
 package homework2;
 
 import org.junit.Test;
+import org.junit.jupiter.api.AfterAll;
 import org.openqa.selenium.By;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -17,4 +18,10 @@ public class search {
                 .pressEnter();                      // нажать кнопку Enter
         sleep(4_000);                    // эххх, хорошая мелодия.....
     }                                              // я заплакал
+
+    @AfterAll
+    public void after () {
+        clearBrowserLocalStorage();
+        clearBrowserCookies();
+    }
 }
