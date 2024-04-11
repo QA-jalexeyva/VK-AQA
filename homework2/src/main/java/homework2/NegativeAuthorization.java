@@ -1,9 +1,12 @@
 package homework2;
 
+import com.codeborne.selenide.selector.ByText;
 import org.junit.Test;
+import org.junit.jupiter.api.AfterAll;
+
+import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byName;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 
 public class NegativeAuthorization {
 
@@ -14,6 +17,14 @@ public class NegativeAuthorization {
                 .setValue("technopol343");            // invalid login
         $(byName("st.password"))                      // in password field
                 .setValue("technopolisPassword")      // invalid password
-                .pressEnter();                        // press Enter
+                .pressEnter();                        // press Enter;
+        $(new ByText("Неправильно указан логин и/или пароль"))
+                .shouldBe(visible
+                        .because("Не отображается элемент на странице"));
+    }
+    @AfterAll
+    public void after () {
+        clearBrowserLocalStorage();
+        clearBrowserCookies();
     }
 }

@@ -1,7 +1,10 @@
-public class first_hw {
-    public static void main(String[] args) {
-        String f = "5";
-        String t = "2";
-        System.out.println(f + t + " " + "ngg");
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+public class SimpleTest {
+
+    @Test
+    public void testTrue() {
+        assertTrue(true);
     }
 }
